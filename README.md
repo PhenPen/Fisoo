@@ -22,7 +22,7 @@ A Python command line tool that automatically organizes messy folders by file ty
 1. Clone this repository:
    ```bash
    git clone https://github.com/PhenPen/Fisoo.git
-   cd Fisoo```
+   cd Fisoo
    ```
 2. Ensure Python 3.6+ is installed:
 	- python --version
@@ -61,6 +61,7 @@ Moved a total of 45 files
 
 #### Example
 ##### Before organizing:
+```
 Downloads/
 ├── report.pdf
 ├── photo.png
@@ -68,8 +69,10 @@ Downloads/
 ├── document.docx
 ├── presentation.pptx
 └── random_file.xyz
+```
 
 ##### After organizing:
+```
 Downloads/
 ├── Documents/
 │   ├── report.pdf
@@ -81,6 +84,7 @@ Downloads/
 │   └── video.mp4
 └── unsorted/
     └── random_file.xyz
+```
 
 ## Supported files
 | Category  | Supported File Types |
@@ -106,10 +110,12 @@ Downloads/
 	- Files that don't match any category are moved to an "unsorted" folder for manual review. This ensures nothing gets lost.
 
 ## Project Structure
+```
 Fisoo/
 ├── sort.py              # Main script
 ├── README.md            # Documentation
 └── LICENSE              # MIT License
+```
 
 ## Contributing
 	- Contributions are welcome! Here's how you can help:
@@ -127,14 +133,14 @@ I built this project as part of my Python journey. My downloads folder was alway
 ## Authors / Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START -->
-| [<img src="https://github.com/PhenPen.png" width="100px;" alt="Phen"/><br /><sub><b>Phen</b></sub>](https://github.com/PhenPen)<br /> | [<img src="https://github.com/Raze92.png" width="100px;" alt="Chidera Onyegbule"/><br /><sub><b>Chidera Onyegbule</b></sub>](https://github.com/Raze92)<br />[LinkedIn](https://linkedin.com/in/chidera-onyegbule) |
+| [<img src="https://github.com/PhenPen.png" width="100px;" alt="Phen"/><br /><sub><b>Phen</b></sub>](https://github.com/PhenPen)<br /> | [<img src="https://github.com/Raze92.png" width="100px;" alt="Chidera Onyegbule"/><br /><sub><b>Chidera Onyegbule</b></sub>](https://github.com/Raze92)<br />[LinkedIn](https://www.linkedin.com/in/chidera-onyegbule-1223b4369/) |
 | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Acknowledgments
-Inspired by the constant struggle of messy download folders
-Built as one of my first projects in my programming journey
-Thanks to the Python community for excellent documentation
+- Inspired by the constant struggle of messy download folders
+- Built as one of my first projects in my programming journey
+- Thanks to the Python community for excellent documentation
 
 ⭐ If you found this helpful, please star the repository!
 ---
